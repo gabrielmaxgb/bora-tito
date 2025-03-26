@@ -1,4 +1,5 @@
 <template>
+  <div>SAVE THE DATE: 28/03/2025 SERÁ O DIA EM QUE TITO DROPARÁ</div>
   <div class="encourage-tito">
     <h1>{{ message }}</h1>
     <button @click="encourageTito">Vamos Tito!</button>
