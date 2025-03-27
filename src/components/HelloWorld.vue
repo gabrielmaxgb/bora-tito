@@ -1,27 +1,27 @@
 <template>
   <div class="container">
     <div class="save-the-date">
-      SAVE THE DATE: 28/03/2025 SERÁ O DIA EM QUE TITO DROPARÁ
+      SAVE THE DATE: 28/03/2025 SERÁ O DIA EM QUE TITO E VITU DROPARÃO
     </div>
     <div class="encourage-tito">
       <h1>{{ message }}</h1>
-      <button @click="encourageTito">Vamos Tito!</button>
+      <button @click="encourageTito">Vamos Tito E Vitu!</button>
     </div>
     <div class="additional-info">
       <h2>Informações Adicionais</h2>
       <ul>
         <li>Local: Sukata skate park</li>
         <li>Horário: 6 AM</li>
-        <li>Evento: Batalha de Skate, Tito vs ele mesmo</li>
-        <li>Participantes: Tito e outros skatistas incríveis</li>
+        <li>Evento: Batalha de Skate, Tito e Vitu vs eles mesmos</li>
+        <li>Participantes: Tito, Vitu e outros skatistas incríveis</li>
         <li>Premiação: Troféu de Ouro Imaginário</li>
       </ul>
     </div>
     <div class="fun-facts">
       <h2>Curiosidades</h2>
-      <p>Você sabia que Tito começou a andar de skate aos 5 anos?</p>
-      <p>Tito já ganhou 10 campeonatos regionais!</p>
-      <p>O movimento favorito de Tito é o kickflip.</p>
+      <p>Você sabia que Tito/Vitu começou a andar de skate aos 5 anos?</p>
+      <p>Tito/Vitu já ganhou 10 campeonatos regionais!</p>
+      <p>O movimento favorito de Tito/Vitu é o kickflip.</p>
     </div>
   </div>
 </template>
@@ -30,21 +30,21 @@
 import { ref } from "vue";
 
 const messages = [
-  "Tito, você consegue dropar na rampa!",
-  "Vai Tito, você é o melhor!",
-  "Não desista Tito, você é incrível!",
-  "Acredite em você, Tito!",
-  "Vamos Tito, você está quase lá!",
-  "Tito, o mundo está esperando por você!",
-  "Você é uma lenda, Tito!",
-  "Tito, você nasceu para isso!",
-  "Nada pode te parar, Tito!",
-  "Tito, você é invencível!",
-  "Tito, você é um campeão!",
-  "Tito, você é um herói!",
-  "Tito, você é uma inspiração!",
-  "Tito, você é imbatível!",
-  "Tito, você é fenomenal!",
+  "Tito e Vitu, vocês conseguem dropar na rampa!",
+  "Vai Tito e Vitu, vocês são os melhores!",
+  "Não desistam Tito e Vitu, vocês são incríveis!",
+  "Acreditem em vocês, Tito e Vitu!",
+  "Vamos Tito e Vitu, vocês estão quase lá!",
+  "Tito e Vitu, o mundo está esperando por vocês!",
+  "Vocês são uma lenda, Tito e Vitu!",
+  "Tito e Vitu, vocês nasceram para isso!",
+  "Nada pode parar vocês, Tito e Vitu!",
+  "Tito e Vitu, vocês são invencíveis!",
+  "Tito e Vitu, vocês são campeões!",
+  "Tito e Vitu, vocês são heróis!",
+  "Tito e Vitu, vocês são uma inspiração!",
+  "Tito e Vitu, vocês são imbatíveis!",
+  "Tito e Vitu, vocês são fenomenais!",
 ];
 
 const message = ref(messages[0]);
@@ -77,7 +77,7 @@ function encourageTito() {
 
 .encourage-tito {
   text-align: center;
-  animation: pulse 2s infinite;
+  /* animation: pulse 2s infinite; */
 }
 
 h1 {
@@ -96,8 +96,6 @@ button {
   font-size: 1.5em;
   cursor: pointer;
   border-radius: 10px;
-  transition: background-color 0.3s, transform 0.3s;
-  animation: shake 0.5s infinite;
 }
 
 button:hover {
